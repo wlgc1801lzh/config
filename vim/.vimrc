@@ -1,3 +1,9 @@
+if empty(glob('~/.vim/autoload/plug.vim'))
+  silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
+    \ https://gitee.com/wlgc1801lzh/config/raw/master/vim/plug.vim
+  autocmd VimEnter * PlugInstall --sync | source ~/.vimrc
+endif
+
 "========== 修改键位 ==========
 map ; :
 let mapleader = " "
