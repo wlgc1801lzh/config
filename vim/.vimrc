@@ -44,6 +44,7 @@ set ignorecase
 set incsearch
 set hlsearch
 set showmatch
+set t_Co=256
 filetype on
 filetype indent on
 filetype plugin on
@@ -74,6 +75,8 @@ call plug#begin('~/.vim/plugged')
 
 " snazzy
 Plug 'connorholyday/vim-snazzy'
+" dracula
+Plug 'dracula/vim', { 'as': 'dracula' }
 " auto-pairs
 Plug 'jiangmiao/auto-pairs'
 " autoformat
@@ -94,7 +97,7 @@ Plug 'mattn/emmet-vim'
 call plug#end()
 
 "========== theme  ===========
-colorscheme snazzy
+colorscheme dracula
 
 "========== autoformat ==========
 nnoremap \f :Autoformat<CR>
