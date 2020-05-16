@@ -8,7 +8,7 @@ fi
 wget -P ~ http://gitee.com/wlgc1801lzh/config/raw/master/.alacritty.yml
 wget -P ~ http://gitee.com/wlgc1801lzh/config/raw/master/vim/.vimrc
 
-if [ ! -d "~/dwm"]
+if [ ! -d "~/dwm" ]
 then
     mkdir ~/dwm
     wget -P ~/dwm https://dl.suckless.org/dwm/dwm-6.2.tar.gz
