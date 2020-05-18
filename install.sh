@@ -8,3 +8,5 @@ fi
 git clone https://gitee.com/wlgc1801lzh/config.git ~
 cp ~/config/.alacritty.yml ~
 cp ~/config/.vimrc ~
+chmod +x ~/config/nvm.sh
+~/config/nvm.sh
