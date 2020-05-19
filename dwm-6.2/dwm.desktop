@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=dwm
+Comment=dwm
+Exec=dwm
+TryExec=dwm
+Icon=/home/hui/config/dwm-6.2/dwm.png
+Type=Application
