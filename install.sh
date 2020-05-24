@@ -1,4 +1,4 @@
-pacman -S base-devel xorg xorg-server xorg-xinit xf86-video-vesa fish alacritty curl git sudo ttf-dejavu wqy-microhei firefox python python-pip neofetch ctags ranger habak thunderbird fcitx fcitx-configtool fcitx-googlepinyin fcitx-im gimp kdenlive blender audacity jdk11-openjdk libreoffice-fresh tree net-tools
+pacman -S base-devel xorg xorg-server xorg-xinit xf86-video-vesa fish alacritty git ttf-dejavu wqy-microhei firefox python python-pip neofetch ctags ranger habak thunderbird fcitx fcitx-configtool fcitx-googlepinyin fcitx-im gimp kdenlive blender audacity jdk11-openjdk tree net-tools
 
 if [ -e "/etc/X11/xinit/xinitrc" ]
 then
@@ -8,8 +8,3 @@ fi
 git clone https://gitee.com/wlgc1801lzh/config.git ~
 cp ~/config/.alacritty.yml ~
 cp ~/config/.vimrc ~
-chmod +x ~/config/nvm.sh
-~/config/nvm.sh
-
-# nvm mirror
-# export NVM_NODEJS_ORG_MIRROR=https://npm.taobao.org/mirrors/node
