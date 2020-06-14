@@ -88,9 +88,9 @@ Plug 'scrooloose/nerdtree'
 " tagbar
 Plug 'majutsushi/tagbar'
 " coc
-Plug 'neoclide/coc.nvim', {'tag': '*', 'do': { -> coc#util#install()}}
+Plug 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'}
 " markdown
-Plug 'iamcco/markdown-preview.nvim', {'do': { -> mkdp#util#install()}}
+Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & yarn install'   } 
 " emmet
 Plug 'mattn/emmet-vim'
 
