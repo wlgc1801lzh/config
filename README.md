@@ -28,3 +28,5 @@ ArchLinux 我的各种配置
     - jdk11-openjdk
     - python python-pip
     - nvm nodejs npm
+20. 开发工具
+    - Visual Studio Code
